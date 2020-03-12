@@ -18,12 +18,13 @@ body
 }
 .nav-bar a
 {
-   border-right: 1px solid white;
+   border-right: 1px solid gray;
    color: #cccccc;
    font-size: 1.35rem;
    padding: 0 20px; 
    text-decoration: none;
 }
+
 .nav-bar a:last-child
 {
    border-right: none;
@@ -37,7 +38,7 @@ body
 
 .nav-bar p
 {
-   margin: auto 100px;
+   margin: auto 120px;
 }
 
 h1

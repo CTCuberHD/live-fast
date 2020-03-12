@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Roboto:100,300,400,500,700,900&display=swap');
+
+*
+{
+   margin: 0;
+   padding: 0;
+}
+
+body
+{
+   font-family: "Roboto", sans-serif;
+}
+
+.nav-bar
+{
+   background-color: black;
+   display: flex;
+}
+.nav-bar a
+{
+   border-right: 1px solid white;
+   color: #cccccc;
+   font-size: 1.35rem;
+   padding: 0 20px; 
+   text-decoration: none;
+}
+.nav-bar a:last-child
+{
+   border-right: none;
+}
+
+.nav-bar a i
+{
+   color: #cccccc;
+   font-size: 1.1rem;
+}
+
+.nav-bar p
+{
+   margin: auto 100px;
+}
+
+h1
+{
+   color: white;
+   font-family: 'Anton', sans-serif;
+   font-size: 2.5rem;
+   font-style: italic;
+   margin-left: 200px;
+}

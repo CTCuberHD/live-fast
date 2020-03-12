@@ -1,4 +1,5 @@
 Curtis Shopping List
 - Apples
 - Banana's
+- Small Grapes
 - Big Grapes

@@ -16,14 +16,36 @@ body
    background-color: black;
    display: flex;
 }
+
+h1
+{
+   color: white;
+   font-family: 'Anton', sans-serif;
+   font-size: 2.5rem;
+   font-style: italic;
+   margin-left: 200px;
+}
+
+.nav-bar p
+{
+   margin: auto 100px;
+}
+
 .nav-bar a
 {
-   border-right: 1px solid white;
+   border-right: 1px solid gray;
    color: #cccccc;
    font-size: 1.35rem;
    padding: 0 20px; 
    text-decoration: none;
 }
+
+.nav-bar a:hover
+{
+   text-decoration: underline;
+   color: lightslategray;
+}
+
 .nav-bar a:last-child
 {
    border-right: none;
@@ -35,16 +57,48 @@ body
    font-size: 1.1rem;
 }
 
-.nav-bar p
+.content
 {
-   margin: auto 100px;
+   background-color: #222222
 }
 
-h1
+.content .container
 {
-   color: white;
-   font-family: 'Anton', sans-serif;
-   font-size: 2.5rem;
-   font-style: italic;
-   margin-left: 200px;
+   background-color: white;
+   margin: 0 auto;
+   width: 85%;
 }
+
+.header
+{
+   border-bottom: 1px solid;
+}
+
+.intro
+{
+   display: flex;
+}
+
+h2
+{
+   font-size: 1.75rem;
+}
+
+.intro-section p
+{
+   font-size: 1.2rem;
+   line-height: 1.2;
+}
+
+.intro-section:first-of-type
+{
+   margin: 0 5px 0 10px;
+   padding-top: 5px;
+}
+
+.intro-section:last-of-type
+{
+   margin: 0 10px 0 5px;
+   padding-top: 5px;
+}
+

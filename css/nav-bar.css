@@ -1,0 +1,45 @@
+.nav-bar
+{
+   background-color: black;
+   display: flex;
+}
+
+h1
+{
+   color: white;
+   font-family: 'Anton', sans-serif;
+   font-size: 2.5rem;
+   font-style: italic;
+   margin-left: 200px;
+}
+
+.nav-bar p
+{
+   margin: auto 200px;
+}
+
+.nav-bar a
+{
+   border-right: 1px solid gray;
+   color: #cccccc;
+   font-size: 1.35rem;
+   padding: 0 20px; 
+   text-decoration: none;
+}
+
+.nav-bar a:hover
+{
+   text-decoration: underline;
+   color: lightslategray;
+}
+
+.nav-bar a:last-child
+{
+   border-right: none;
+}
+
+.nav-bar a i
+{
+   color: #cccccc;
+   font-size: 1.1rem;
+}

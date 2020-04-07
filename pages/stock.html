@@ -7,7 +7,7 @@
       <link rel="stylesheet" href="../css/style.css">
       <link rel="stylesheet" href="../css/nav-bar.css">
       <link rel="stylesheet" href="../css/carousel.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://kit.fontawesome.com/2da61802ce.js" crossorigin="anonymous"></script>
    </head>
    <body>
       <nav class="nav-bar">
@@ -31,28 +31,102 @@
             </div>
             <div class="slide">
                <div class="slide-content">
-                  <h2>Slide 1</h2>
+                  <h2><a href="./suv-stock.html">Check out our SUV stock <i class="fa fa-chevron-right"></i></a></h2>
+                  <p>Searching for an SUV? Look no further. We offer a wide range of performance SUVs ranging from the Lamborghini Urus to the Audi Q5</p>
+               </div>
+            </div>
+            <div class="slide">
+               <div class="slide-content">
+                  <h2>Slide 3</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus provident eligendi fuga. Voluptatem, dicta inventore!</p>
                </div>
             </div>
             <div class="slide">
                <div class="slide-content">
-                  <h2>Slide 1</h2>
+                  <h2>Slide 4</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus provident eligendi fuga. Voluptatem, dicta inventore!</p>
                </div>
             </div>
-            <div class="slide">
-               <div class="slide-content">
-                  <h2>Slide 1</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus provident eligendi fuga. Voluptatem, dicta inventore!</p>
-               </div>
-            </div>
+         </div>
+         <div class="slides-nav">
+            <button class="active nav-button"></button>
+            <button class="nav-button"></button>
+            <button class="nav-button"></button>
+            <button class="nav-button"></button>
          </div>
          <div class="buttons">
-            <button id="prev"><i class="fa arrow-left"></i></button>
-            <button id="prev"><i class="fa arrow-left"></i></button>
+            <button id="prev"><i class="fas fa-arrow-left"></i></button>
+            <button id="next"><i class="fas fa-arrow-right"></i></button>
          </div>
       </header>
+      <div class="content">
+         <div class="container" id="catorgories">
+            <h2>Catergories</h2>
+            <hr>
+            <div class="container-items grid">
+               <div class="container-section">
+                  <h3>Muscle Cars</h3>
+                  <img src="../img/mustang.jpg" alt="">
+               </div>
+
+               <div class="container-section">
+                  <h3>Supercars</h3>
+                  <img src="../img/mclaren-london.jpg" alt="">
+               </div>
+
+               <div class="container-section">
+                  <h3>SUVs</h3>
+                  <img src="../img/audi-q5.jpg" alt="">
+               </div>
+
+               <div class="container-section">
+                  <h3>Coupés</h3>
+                  <img src="../img/tesla-london.jpg" alt="">
+               </div>
+
+               <div class="container-section">
+                  <h3>Performance Hatchbacks</h3>
+                  <img src="../img/amg-4matic.jpg" alt="">
+               </div>
+
+               <div class="container-section">
+                  <h3>Saloons</h3>
+                  <img src="../img/2018-mercedes-maybach-s-class.jpg" alt="">
+               </div>
+
+               <div class="container-section">
+                  <h3>Classic Cars</h3>
+                  <img src="../img/pontiac.jpg" alt="">
+               </div>
+
+               <div class="container-section">
+                  <h3>GT3 & GT4</h3>
+                  <img src="../img/AudiR18.jpg" alt="">
+               </div>
+            </div>
+         </div>
+         <div class="container" id="stock">
+            <h2>Latest Stock</h2>
+            <hr>
+            <div class="container-items" id="stock-items">
+               <div class="container-section stock-section">
+                  <ul>
+                     <li>Ford GT '20</li>
+                     <li>Mercedes-Benz AMG S-Class Coupé</li>
+                     <li>Pontiac Firebird '77</li>
+                     <li>Chevrolet Camaro ZL1</li>
+                     <li>Aston Martin DB11</li>
+                     <li>Audi Q5</li>
+                     <li>Lamborghini Huracán Performante</li>
+                     <li>Mercedes-Benz AMG A45 4Matic</li>
+                  </ul>
+               </div>
+               <div class="container-section stock-section">
+                  <img src="../img/ferrari-new-york.jpg" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
       <script src="../js/carousel.js"></script>
    </body>
 </html>

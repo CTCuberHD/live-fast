@@ -2,8 +2,8 @@
 {
    position: relative;
    overflow: hidden;
-   height: 100vh;
-   width: 100vw;
+   height: 550px;
+   width: 1920px;
 }
 
 .slide
@@ -11,8 +11,8 @@
    position: absolute;
    top: 0;
    left: 0;
-   width: 100%;
-   height: 100%;
+   width: 1920px;
+   height: 550px;
    opacity: 0;
    transition: opacity 0.4s ease-in-out;
 }
@@ -20,4 +20,130 @@
 .slide.current
 {
    opacity: 1;
+}
+
+.slide .slide-content
+{
+   position: absolute;
+   top: 50px;
+   left: -600px;
+   opacity: 0;
+   width: 600px;
+   background-color: rgba(255, 255, 255, 0.8);
+   color: #333;
+   padding: 30px;
+}
+
+.slide .slide-content h2 i
+{
+   font-size: 1.3rem;
+}
+
+.slide .slide-content h2 a
+{
+   color: #333;
+   text-decoration: none;
+}
+
+.slide .slide-content h2 a:hover
+{
+   text-decoration: underline;
+}
+
+.slide .slide-content h1
+{
+   margin-bottom: 10px;
+}
+
+.slide.current .slide-content
+{
+   opacity: 1;
+   transform: translateX(600px);
+   transition: all 0.7s ease-in-out 0.3s;
+}
+
+.buttons button#next
+{
+   position: absolute;
+   top: 35%;
+   right: 15px;
+}
+
+.buttons button#prev
+{
+   position: absolute;
+   top: 35%;
+   left: 15px;
+}
+
+.buttons button
+{
+   border: 2px solid white;
+   background-color: transparent;
+   color: white;
+   cursor: pointer;
+   padding: 13px 15px;
+   border-radius: 50%;
+   outline: none;
+}
+
+.buttons button:hover
+{
+   background-color: white;
+   color: #333;
+}
+
+.slides-nav
+{
+   position: absolute;
+   left: 50%;
+   top: 585px;
+}
+
+.slides-nav button
+{
+   border: 0;
+   border-radius: 50%;
+   width: 15px;
+   height: 15px;
+   background: #777777;
+   margin: 0 5px;
+   outline: none;
+}
+
+.slides-nav button:hover
+{
+   cursor: pointer;
+   background: #333333;
+}
+
+.slides-nav button.active
+{
+   background-color: #1c69d4;
+   width: 17px;
+   height: 17px;
+}
+
+
+
+
+
+.slide:first-child
+{
+   background: url('../img/stock-carousel/muscle-car.jpg') no-repeat center center/cover;
+}
+
+.slide:nth-child(2)
+{
+   background: url('../img/stock-carousel/suv.jpg') no-repeat center top/cover;
+}
+
+.slide:nth-child(3)
+{
+   background: url('../img/stock-carousel/supercar.jpg') no-repeat center top/cover;
+}
+
+.slide:nth-child(4)
+{
+   background: url('../img/stock-carousel/gt-range.jpg') no-repeat center top/cover;
 }
